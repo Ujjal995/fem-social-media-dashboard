@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background: linear-gradient(to top, hsl(230, 17%, 14%), hsl(232, 19%, 15%));
+    display: flex;
+    justify-content: center;
+}
+
+.mainDiv {
+    width: 68%;
+    margin-top: 5rem;
+    margin-left: 10vmin;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/**** Social Media Dashboard ****/
+
+.h1Div {
+    font-size:20px;
+    margin-left: 5vmin;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.h1Div a {
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.profile {
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.socialmedia-box {
+    width: 10rem;
+    height: 9rem;
+    margin-left: 5vmin;
+    margin-right: 5vmin;
+    margin-bottom: 2rem;
+    background-color: hsl(228, 28%, 20%);
+    border-radius: 3%;
+}
+
+/**** Lights ****/
+
+.lightF {
+    width: 100%;
+    height: 2%;
+    background-color: hsl(208, 94%, 44%);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.lightT {
+    width: 100%;
+    height: 2%;
+    background-color: hsl(203, 89%, 53%);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.lightI {
+    width: 100%;
+    height: 2%;
+    background: linear-gradient(to right, hsl(35, 77%, 53%), hsl(329, 86%, 50%));
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.lightY {
+    width: 100%;
+    height: 2%;
+    background-color: hsl(0, 97%, 39%);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+/**** Logos ****/
+
+.facebookLogo {
+    width: 1.4rem;
+    height: 1.4rem;
+    display: flex;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+.twitterLogo {
+    width: 1.6rem;
+    height: 1.4rem;
+    display: flex;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+.instaLogo {
+    width: 1.4rem;
+    height: 1.4rem;
+    display: flex;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+.youtubeLogo {
+    width: 1.4rem;
+    height: 1.4rem;
+    display: flex;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/**** Text Inside Logo Div ****/
+
+.facebookLogo p {
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 4px;
+    color :hsl(228, 34%, 66%);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.twitterLogo p {
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 4px;color :hsl(228, 34%, 66%);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.instaLogo p {
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 4px;
+    color :hsl(228, 34%, 66%);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.youtubeLogo p {
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 4px;
+    color :hsl(228, 34%, 66%);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/**** Counters ****/
+
+.facebookCount {
+    margin-left: 32%;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.twitterCount {
+    margin-left: 32%;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.instaCount {
+    margin-left: 38%;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.youtubeCount {
+    margin-left: 30%;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/**** Followers ****/
+
+.followers {
+    margin-left: 24%;
+    font-family:'Courier New', Courier, monospace;
+    opacity: 0.3;
+}
+
+/**** Overview ****/
+
+.overviewDiv1 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.overviewDiv2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.h2Div {
+    font-size: 17px;
+    margin-left: 5vmin;
+    margin-bottom: 2vmin;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.overviewbox {
+    width: 10rem;
+    height: 6rem;
+    background-color: hsl(228, 28%, 20%);
+    margin-left: 5vmin;
+    margin-right: 5vmin;
+    margin-bottom: 2vmin;
+    border-radius: 3%;
+}
+
+/**** Logos 1 ****/
+
+.facebookLogo1 {
+    width: 1.4rem;
+    height: 1.4rem;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+.twitterLogo1 {
+    width: 1.6rem;
+    height: 1.4rem;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+.instaLogo1 {
+    width: 1.4rem;
+    height: 1.4rem;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+.youtubeLogo1 {
+    width: 1.4rem;
+    height: 1.4rem;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 4px;
+}
+
+/**** Text Inside Logo 1 Div for p ****/
+
+.facebookLogo1 p {
+    font-size: 12px;
+    margin-right: 40px;
+    color :hsl(228, 34%, 66%);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.twitterLogo1 p {
+    font-size: 12px;
+    margin-right: 40px;
+    color :hsl(228, 34%, 66%);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.instaLogo1 p {
+    font-size: 12px;
+    margin-right: 32px;
+    color :hsl(228, 34%, 66%);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.youtubeLogo1 p {
+    font-size: 12px;
+    margin-right: 35px;
+    color :hsl(228, 34%, 66%);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/**** Text Inside Logo 1 Div for a ****/
+
+.facebookLogo1 a {
+    font-size: 12px;
+    margin-right: 67px;
+    color :hsl(228, 34%, 66%);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.twitterLogo1 a {
+    font-size: 12px;
+    margin-right: 60px;
+    color :hsl(228, 34%, 66%);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.instaLogo1 a {
+    font-size: 12px;
+    margin-right: 67px;
+    color :hsl(228, 34%, 66%);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.youtubeLogo1 a {
+    font-size: 12px;
+    margin-right: 63px;
+    color :hsl(228, 34%, 66%);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*** Counters ***/
+
+.count {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 8px;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
